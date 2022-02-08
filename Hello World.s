@@ -1,3 +1,4 @@
+# Author: Charles Kann
 # Purpose: First program, Hello World
 .text					# Define the program instructions.
 main:					# Label to define the main program.
