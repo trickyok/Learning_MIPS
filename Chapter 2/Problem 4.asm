@@ -12,7 +12,8 @@ main:
 	
 	# Waits 4 seconds --- But doesn't??
 	li $v0, 32
-	la $a0, time
+	la $a0, 4000
+	syscall
 	
 	# Prints "time end"
 	li $v0, 4
@@ -26,4 +27,3 @@ main:
 .data
 start: .asciiz "time start"
 end: .asciiz "\ntime end"
-time: .word 4000
